@@ -2,9 +2,10 @@ def oxford_comma(array)
   if array.size == 1
     array.join
   elsif array.size == 2 
-   puts array.insert(-2, "and").join" "
+   new_array = array.insert(-2, "and")
+   puts new_array.join" "
   #else 
-    #puts array[0..-1].each do |fruit| puts #{fruit, } 
+    #puts array[0..-2].each do |fruit| puts #{fruit, } 
   end  
 end
 
