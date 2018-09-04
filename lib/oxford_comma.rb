@@ -4,7 +4,7 @@ def oxford_comma(array)
   elsif array.size == 2 
    puts array.insert(-2, "and").join" "
   #else 
-    #puts array[0..-1].each {|fruit| puts #{fruit, } }
+    #puts array[0..-1].each do |fruit| puts #{fruit, } 
   end  
 end
 
